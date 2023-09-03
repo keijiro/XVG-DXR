@@ -596,7 +596,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 1.3667297, z: 0}
+        value: {x: 0, y: 1.3312763, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -675,7 +675,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1.3667297
+        value: 1.3312763
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 11
+  take: 13
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -887,7 +887,7 @@ MonoBehaviour:
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
-        imageHeight: 1080
+        imageHeight: 720
         maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
@@ -957,7 +957,7 @@ MonoBehaviour:
       type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
       data:
         captureAccumulation: 1
-        samples: 20
+        samples: 8
         shutterInterval: 1
         shutterProfileType: 0
         shutterProfileCurve:
@@ -1208,9 +1208,9 @@ MonoBehaviour:
   m_Name: BrownianMotion
   m_EditorClassIdentifier: 
   template:
-    positionAmount: {x: 0.05, y: 0, z: 0.05}
-    rotationAmount: {x: 2, y: 2, z: 2}
-    frequency: 0.1
+    positionAmount: {x: 0.02, y: 0, z: 0.02}
+    rotationAmount: {x: 1, y: 1, z: 1}
+    frequency: 0.2
     octaves: 3
     randomSeed: 18144
 --- !u!114 &5280753803696825682
@@ -1473,7 +1473,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
