@@ -25,6 +25,7 @@ Material:
   - TransparentDepthPostpass
   - TransparentBackface
   - MOTIONVECTORS
+  - RayTracingPrepass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -39,11 +40,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _RayTracing: 1
+    - _Metallic: 1
     - _Scale: 0.3
-    - _Smoothness: 0.9
+    - _Smoothness: 0.8
     m_Colors:
-    - _Overlay: {r: 1, g: 1, b: 1, a: 0.6666667}
+    - _Overlay: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0.6666667}
   m_BuildTextureStacks: []
 --- !u!114 &9208465745622629425
 MonoBehaviour:
