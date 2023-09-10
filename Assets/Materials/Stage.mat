@@ -40,9 +40,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Metallic: 1
     - _Scale: 0.3
-    - _Smoothness: 0.8
     m_Colors:
     - _Overlay: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0.6666667}
   m_BuildTextureStacks: []

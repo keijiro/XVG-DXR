@@ -44,11 +44,8 @@ Material:
     - _CullMode: 0
     - _CullModeForward: 0
     - _DoubleSidedNormalMode: 0
-    - _Metallic: 1
-    - _Smoothness: 0.9
     m_Colors:
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _Overlay: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 0.69411767}
   m_BuildTextureStacks: []
 --- !u!114 &2733111936240472516
