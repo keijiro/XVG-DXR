@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 24.435299, g: 18.902353, b: 19.056787, a: 1}
+  m_IndirectSpecularColor: {r: 51.500076, g: 43.520718, b: 43.797024, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &15573391
 Transform:
   m_ObjectHideFlags: 0
@@ -523,9 +523,9 @@ MonoBehaviour:
       x: 4
       y: 10
     Scale:
-      x: 0.005
+      x: 0.01
       y: 0.02
-      z: 1
+      z: 1.7
     Speed:
       x: 0.1
       y: 1
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Config>k__BackingField:
-    InstanceCount: 100
+    InstanceCount: 300
     Extent:
       x: 5
       y: 2
@@ -649,7 +649,7 @@ MonoBehaviour:
       x: 0.5
       y: 0.5
     Scale:
-      x: 0.1
+      x: 0.05
       y: 0.3
       z: 1.5
     Speed:
@@ -1737,8 +1737,8 @@ Camera:
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_Iso: 2000
-  m_ShutterSpeed: 0.0125
-  m_Aperture: 1.1
+  m_ShutterSpeed: 0.02
+  m_Aperture: 1.8
   m_FocusDistance: 3.22
   m_FocalLength: 80
   m_BladeCount: 5
@@ -4749,7 +4749,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 15
+  m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 146650516644036299, guid: 3d787b248bf0d4241bda1aa387a22b1e, type: 2}
     value: {fileID: 0}

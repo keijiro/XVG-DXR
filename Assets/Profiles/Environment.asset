@@ -126,7 +126,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 3.33
+    m_Value: 3
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -150,16 +150,16 @@ MonoBehaviour:
     m_Value: 0
   top:
     m_OverrideState: 1
-    m_Value: {r: 2.1435473, g: 0.52746975, b: 0.5726997, a: 1}
+    m_Value: {r: 3.7631207, g: 0.5857688, b: 0.69609386, a: 1}
   middle:
     m_OverrideState: 1
-    m_Value: {r: 11.181762, g: 11.181762, b: 11.181762, a: 1}
+    m_Value: {r: 25.688934, g: 25.688934, b: 25.688934, a: 1}
   bottom:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 1}
   gradientDiffusion:
     m_OverrideState: 1
-    m_Value: 2.68
+    m_Value: 2
 --- !u!114 &3164240016314693774
 MonoBehaviour:
   m_ObjectHideFlags: 3
