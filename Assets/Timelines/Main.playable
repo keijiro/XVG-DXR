@@ -126,7 +126,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: <Recorder>_<Take>
+    m_FileName: Part3
   m_Version: 1
   encoderSettings:
     rid: 1253694542485913602
@@ -817,7 +817,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: <Recorder>_<Take>
+    m_FileName: Part4
   m_Version: 1
   encoderSettings:
     rid: 1253694542485913602
@@ -978,7 +978,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: <Recorder>_<Take>
+    m_FileName: Part5
   m_Version: 1
   encoderSettings:
     rid: 1253694542485913602
@@ -1245,7 +1245,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: <Recorder>_<Take>
+    m_FileName: Part2
   m_Version: 1
   encoderSettings:
     rid: 1253694542485913602
@@ -1498,7 +1498,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: <Recorder>_<Take>
+    m_FileName: Part1
   m_Version: 1
   encoderSettings:
     rid: 1253694542485913602
