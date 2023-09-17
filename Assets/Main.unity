@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 25.750038, g: 21.760359, b: 21.898512, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -309,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 126956671}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalPosition: {x: 0, y: 0, z: -4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -460,18 +460,18 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 2
-  m_GateFitMode: 1
+  m_GateFitMode: 2
   m_FOVAxisMode: 0
-  m_Iso: 3000
-  m_ShutterSpeed: 0.005
-  m_Aperture: 1.1
-  m_FocusDistance: 5
-  m_FocalLength: 50
+  m_Iso: 2000
+  m_ShutterSpeed: 0.02
+  m_Aperture: 1.8
+  m_FocusDistance: 3.5
+  m_FocalLength: 24
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
   m_Anamorphism: 0
-  m_SensorSize: {x: 24.892, y: 18.669}
+  m_SensorSize: {x: 20.726, y: 15.545}
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -481,7 +481,7 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 200
-  field of view: 21.149632
+  field of view: 35.889526
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -3523,14 +3523,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583683645}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.029554341, y: 0.8162202, z: 0.04191927, w: -0.5754598}
-  m_LocalPosition: {x: 0.26, y: 1.04, z: 0}
+  m_LocalRotation: {x: 0.08289007, y: 0.30784115, z: 0.026932621, w: -0.94743747}
+  m_LocalPosition: {x: 0, y: 0.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1579091240}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -5.88, y: 250.37, z: 0}
+  m_LocalEulerAnglesHint: {x: -10, y: 324, z: 0}
 --- !u!1 &597040484
 GameObject:
   m_ObjectHideFlags: 0
@@ -7206,7 +7206,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 14
+  m_InitialTime: 49
   m_SceneBindings:
   - key: {fileID: 146650516644036299, guid: 3d787b248bf0d4241bda1aa387a22b1e, type: 2}
     value: {fileID: 0}
@@ -7232,6 +7232,8 @@ PlayableDirector:
     value: {fileID: 1644190566}
   - key: {fileID: 4359084080376368970, guid: 7d3572b3c2e790540b097bb83e4ab6ca, type: 2}
     value: {fileID: 435983388}
+  - key: {fileID: -405246425200337531, guid: 7d3572b3c2e790540b097bb83e4ab6ca, type: 2}
+    value: {fileID: 583683645}
   m_ExposedReferences:
     m_References:
     - 2e4e9a069f3264be282cf669bd503f74: {fileID: 448983220}
