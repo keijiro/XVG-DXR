@@ -35,11 +35,12 @@ public sealed class ChainRenderer
     InstancePool _pool;
 
     void UpdateXforms()
-    {
-        using var temp = new NativeSpline(Spline.Spline, Allocator.TempJob);
-        new ChainUpdateJob() { Config = Config, Spline = temp, Time = Time }
+     => new ChainUpdateJob()
+          { Config = Config,
+            Spline = new NativeSpline(Spline.Spline, Allocator.TempJob),
+            Root = transform.localToWorldMatrix,
+            Time = Time }
           .Schedule(_pool.Xforms).Complete();
-    }
 
     void OnSplineModified(Spline spline)
       => UpdateXforms();

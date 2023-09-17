@@ -59,6 +59,7 @@ struct ChainUpdateJob : IJobParallelForTransform
 {
     public ChainConfig Config;
     public NativeSpline Spline;
+    public float4x4 Root;
     public float Time;
 
     [BurstCompile]
@@ -94,6 +95,11 @@ struct ChainUpdateJob : IJobParallelForTransform
 
         var dis = math.mul(rot, math.float3(0, 0, 1));
         pos += dis * rand.NextFloat(cfg.Displacement);
+
+        // Root transform
+        pos = math.transform(Root, pos);
+        rot = math.mul(math.quaternion(Root), rot);
+        scale = math.length(math.mul(Root, math.float4(scale, 0, 0, 0)));
 
         transform.localPosition = pos;
         transform.localRotation = rot;
