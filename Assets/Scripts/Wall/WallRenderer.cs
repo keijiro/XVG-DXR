@@ -60,6 +60,7 @@ public sealed class WallRenderer
         _pool.Meshes = Meshes;
         _pool.Material = Material;
         _pool.RandomSeed = Config.Seed;
+        _pool.Layer = gameObject.layer;
         UpdateXforms();
     }
 

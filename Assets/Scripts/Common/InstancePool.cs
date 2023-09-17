@@ -25,6 +25,9 @@ public class InstancePool : IDisposable
     public uint RandomSeed
       { get => _randomSeed; set => ResetRandomSeed(value); }
 
+    public int Layer
+      { get => _layer; set => ResetLayer(value); }
+
     public TransformAccessArray Xforms => UpdateXforms();
 
     #endregion
@@ -49,6 +52,7 @@ public class InstancePool : IDisposable
     Mesh[] _meshes = new Mesh[] { null };
     Material _material;
     uint _randomSeed = 1;
+    int _layer;
 
     TransformAccessArray _xforms;
     MaterialPropertyBlock _mpblock;
@@ -63,6 +67,7 @@ public class InstancePool : IDisposable
 
         var go = new GameObject("Instance", InstanceComponents);
         go.hideFlags = HideFlags.HideAndDontSave;
+        go.layer = _layer;
 
         go.GetComponent<MeshFilter>().sharedMesh = GetMeshForIndex(i);
 
@@ -151,6 +156,13 @@ public class InstancePool : IDisposable
         _material = m;
         foreach (var go in _instances)
             go.GetComponent<MeshRenderer>().sharedMaterial = m;
+    }
+
+    void ResetLayer(int layer)
+    {
+        if (_layer == layer) return;
+        _layer = layer;
+        foreach (var go in _instances) go.layer = _layer;
     }
 
     #endregion
