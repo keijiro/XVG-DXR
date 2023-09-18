@@ -100,9 +100,9 @@ struct ScatterUpdateJob : IJobParallelForTransform
         vel *= rand.NextFloat(Config.Speed.x, Config.Speed.y);
 
         // Position without turbulence
-        var pos = math.transform(Root, 0);
-        pos += rand.NextFloat3(-0.5f, 0.5f) * Config.Extent;
+        var pos = rand.NextFloat3(-0.5f, 0.5f) * Config.Extent;
         pos += vel * time01 * period;
+        pos = math.transform(Root, pos);
 
         // Tubulence
         float3 grad1, grad2;
