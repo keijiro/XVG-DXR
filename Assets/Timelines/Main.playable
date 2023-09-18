@@ -51,6 +51,99 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
+--- !u!114 &-8988991099947906592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21bf7f712d84d26478ebe6a299f21738, type: 3}
+  m_Name: Activation Track (2)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: -5794925858841950016}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 4914730620839299270}
+    m_Duration: 220
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -8988991099947906592}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Active
+  m_Markers:
+    m_Objects: []
+  m_PostPlaybackState: 3
 --- !u!74 &-8971843434444133445
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -722,7 +815,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -998,13 +1091,14 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children:
   - {fileID: 5428674186335466014}
   - {fileID: -1950561972267447595}
+  - {fileID: -8988991099947906592}
   m_Clips: []
   m_Markers:
     m_Objects: []
@@ -1152,7 +1246,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1742,30 +1836,6 @@ MonoBehaviour:
       type: {class: ProResEncoderSettings, ns: UnityEditor.Recorder.Encoder, asm: Unity.Recorder.Editor}
       data:
         outputFormat: 2
---- !u!114 &-3095550868686778564
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: 706de4aa898befa4fb9f5a7fd65e0ded
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 0
-  particleRandomSeed: 1531
-  updateDirector: 0
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 0
-  postPlayback: 2
-  directorOnClipEnd: 0
 --- !u!114 &-2971428405155714305
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3573,7 +3643,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -4471,144 +4541,6 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Chain
   - m_Version: 1
-    m_Start: 120
-    m_ClipIn: 0
-    m_Asset: {fileID: -3095550868686778564}
-    m_Duration: 30
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 3461605972145993035}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Chain
-  - m_Version: 1
-    m_Start: 150
-    m_ClipIn: 0
-    m_Asset: {fileID: -778225169195490955}
-    m_Duration: 30
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 3461605972145993035}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Chain
-  - m_Version: 1
     m_Start: 180
     m_ClipIn: 0
     m_Asset: {fileID: -2083813619562349534}
@@ -4682,6 +4614,75 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 7676447983683724891}
     m_Duration: 10
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 3461605972145993035}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Chain
+  - m_Version: 1
+    m_Start: 137.83333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -778225169195490955}
+    m_Duration: 30
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3461605972145993035}
     m_EaseInDuration: 0
@@ -5052,6 +5053,18 @@ MonoBehaviour:
   active: 0
   postPlayback: 2
   directorOnClipEnd: 0
+--- !u!114 &4914730620839299270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
+  m_Name: ActivationPlayableAsset
+  m_EditorClassIdentifier: 
 --- !u!114 &5008143605714647865
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5074,7 +5087,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 82
+    m_Start: 146
     m_ClipIn: 0
     m_Asset: {fileID: 8281797987171463760}
     m_Duration: 10
