@@ -19,8 +19,8 @@ ScriptedImporter:
     Axis: 1
     DoubleSided: 0
   _box:
-    Width: 0.01
-    Height: 0.01
+    Width: 0.0025
+    Height: 0.0025
     Depth: 5
   _sphere:
     Radius: 1
