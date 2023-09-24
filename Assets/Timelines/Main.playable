@@ -1509,7 +1509,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: Take
+    m_FileName: Orbit 165
   m_Version: 1
   encoderSettings:
     rid: 1253694542485913602
@@ -1591,7 +1591,7 @@ MonoBehaviour:
       type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
       data:
         captureAccumulation: 1
-        samples: 8
+        samples: 10
         shutterInterval: 1
         shutterProfileType: 0
         shutterProfileCurve:
@@ -1725,7 +1725,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1880,7 +1880,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -6644,7 +6644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 115
+  m_Time: 200
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 238bdd06089a65249a3a6ca886130765, type: 2}
@@ -8274,7 +8274,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 30
+  take: 31
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
